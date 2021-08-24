@@ -1,0 +1,478 @@
+html {
+  font-size: 20px;
+}
+body {
+  background: #121212;
+}
+
+#tetri {
+  z-index: 1;
+  position: absolute;
+  width: 235px;
+  height: 502px;
+  margin-top: 50px;
+  border-radius: 8%;
+  background: #bcc7c7;
+  border: 2px solid #a0aeb3;
+
+  
+}
+
+#tetri2 {
+  z-index: 2;
+  position: absolute;
+  width: 211px;
+  height: 502px;
+  margin-top: 50px;
+  margin-left: 29px;
+  border-radius: 8%;
+  background: #cbd3d5;
+  border: 2px solid #a0aeb3;
+
+  
+}
+
+#pantallitasombra {
+  z-index: 3;
+  position: absolute;
+  width: 135px;
+  height: 154px;
+  margin-top: 68px;
+  margin-left: 67px;
+  border-radius: 4%;
+  background: #6e907e;
+
+  
+}
+
+#pantallita {
+  z-index: 4;
+  position: absolute;
+  width: 122px;
+  height: 136px;
+  margin-top: 78px;
+  margin-left: 71px;
+  border-radius: 4%;
+  background: #77a692;
+
+  
+}
+
+/* Botones  */
+
+#bot1 {
+  z-index: 6;
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  margin-top: 295px;
+  margin-left: 186px;
+  border-radius: 50%;
+  background: #f4de59;
+
+  
+}
+
+#bot1sombra {
+  z-index: 5;
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  margin-top: 296px;
+  margin-left: 183px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+#bot2 {
+  z-index: 8;
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  margin-top: 295px;
+  margin-left: 134px;
+  border-radius: 50%;
+  background: #f4de59;
+
+  
+}
+
+#bot2sombra {
+  z-index: 7;
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  margin-top: 296px;
+  margin-left: 131px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+#bot3 {
+  z-index: 10;
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  margin-top: 295px;
+  margin-left: 75px;
+  border-radius: 50%;
+  background: #f4de59;
+
+  
+}
+
+#bot3sombra {
+  z-index: 9;
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  margin-top: 296px;
+  margin-left: 72px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+#bot3 {
+  z-index: 12;
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  margin-top: 295px;
+  margin-left: 75px;
+  border-radius: 50%;
+  background: #f4de59;
+
+  
+}
+
+#botonjefe {
+  z-index: 12;
+  position: absolute;
+  width: 43px;
+  height: 39px;
+  margin-top: 365px;
+  margin-left: 180px;
+  border-radius: 50%;
+  background: #ffd74e;
+
+  
+}
+
+#botonjefesombra {
+  z-index: 11;
+  position: absolute;
+  width: 43px;
+  height: 39px;
+  margin-top: 367px;
+  margin-left: 176px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+/*Botones flecha*/
+
+#botarriba {
+  z-index: 14;
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  margin-top: 370px;
+  margin-left: 65px;
+  border-radius: 50%;
+  background: #ffd74e;
+
+  
+}
+
+#botarribasombra {
+  z-index: 13;
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  margin-top: 372px;
+  margin-left: 63px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+#botabajo {
+  z-index: 16;
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  margin-top: 414px;
+  margin-left: 65px;
+  border-radius: 50%;
+  background: #ffd74e;
+
+  
+}
+
+#botabajosombra {
+  z-index: 15;
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  margin-top: 416px;
+  margin-left: 63px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+#botizq {
+  z-index: 18;
+  position: absolute;
+  width: 24px;
+  height: 26px;
+  margin-top: 392px;
+  margin-left: 39px;
+  border-radius: 50%;
+  background: #ffd74e;
+
+  
+}
+
+#botizqsombra {
+  z-index: 17;
+  position: absolute;
+  width: 24px;
+  height: 26px;
+  margin-top: 394px;
+  margin-left: 37px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+#botderecha {
+  z-index: 20;
+  position: absolute;
+  width: 24px;
+  height: 26px;
+  margin-top: 392px;
+  margin-left: 95px;
+  border-radius: 50%;
+  background: #ffd74e;
+
+  
+}
+
+#botderechasombra {
+  z-index: 19;
+  position: absolute;
+  width: 24px;
+  height: 26px;
+  margin-top: 394px;
+  margin-left: 93px;
+  border-radius: 50%;
+  background: #aa8e2c;
+
+  
+}
+
+/* carita*/
+#carita {
+  z-index: 23;
+  position: absolute;
+  width: 45px;
+  height: 39px;
+  margin-top: 480px;
+  margin-left: 156px;
+  border-radius: 50%;
+  background: #b1bfc3;
+}
+#puntocarita1 {
+  z-index: 24;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  margin-top: 487px;
+  margin-left: 180px;
+  border-radius: 50%;
+  background: #7d8284;
+}
+#puntocarita2 {
+  z-index: 25;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  margin-top: 490px;
+  margin-left: 165px;
+  border-radius: 50%;
+  background: #7d8284;
+}
+
+#sonrisa {
+  z-index: 27;
+  position: absolute;
+  width: 16px;
+  height: 10px;
+  margin-top: 499px;
+  margin-left: 170px;
+  border-radius: 50%;
+  background: #b1bfc3;
+}
+#sonrisa2 {
+  z-index: 26;
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  margin-top: 501px;
+  margin-left: 168px;
+  border-radius: 50%;
+  background: #7d8284;
+}
+#pelito1 {
+  z-index: 22;
+  position: absolute;
+  width: 0px;
+  height: 6px;
+  margin-top: 468px;
+  margin-left: 165px;
+  border-left: 12px solid #b1bfc3;
+  border-right: 12px solid #b1bfc3;
+  border-top: 25px solid transparent;
+}
+#pelito2 {
+  z-index: 22;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  margin-top: 472px;
+  margin-left: 170px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: #b1bfc3;
+  border: 2px solid #a0aeb3;
+}
+
+#lomita {
+  z-index: 28;
+  position: absolute;
+  width: 223px;
+  height: 58px;
+  margin-top: 227px;
+  margin-left: 32px;
+  border-radius: 24%;
+  background: #cbd3d5;
+  border: 2px solid #a0aeb3;
+
+  
+}
+
+#lomita2 {
+  z-index: 29;
+  position: absolute;
+  width: 220px;
+  height: 57px;
+  margin-top: 230px;
+  margin-left: 22px;
+  border-radius: 2%;
+  background: #cbd3d5;
+
+  
+}
+#lomita3 {
+  z-index: 30;
+  position: absolute;
+  width: 39px;
+  height: 53px;
+  margin-top: 230px;
+  margin-left: 14x;
+  border-radius: 24%;
+  background: #bbc7c6;
+  border: 2px solid #a0aeb3;
+
+  
+}
+#lomita4 {
+  z-index: 31;
+  position: absolute;
+  width: 27px;
+  height: 57px;
+  margin-top: 230px;
+  margin-left: 2px;
+  border-radius: 0%;
+  background: #bbc7c6;
+
+  
+}
+#lomita5 {
+  z-index: 32;
+  position: absolute;
+  width: 19px;
+  height: 51px;
+  margin-top: 233px;
+  margin-left: 0px;
+  border-radius: 24%;
+  background: #ffe171;
+  border: 3px solid #a0aeb3;
+
+  
+}
+
+#lomita6 {
+  z-index: 33;
+  position: absolute;
+  width: 17px;
+  height: 51px;
+  margin-top: 237px;
+  margin-left: 0px;
+  background: #ffe171;
+
+  
+}
+
+#aprende {
+  z-index: 34;
+  position: absolute;
+  width: 122px;
+  height: 136px;
+  margin-top: 110px;
+  margin-left: 80px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: #244234;
+  
+}
+
+#horizontal {
+  z-index: 35;
+  position: absolute;
+  width: 110px;
+  height: 1px;
+  margin-top: 88px;
+  margin-left: 67px;
+  background: #244234;
+}
+
+#vertical {
+  z-index: 36;
+  position: absolute;
+  width: 1px;
+  height: 134px;
+  margin-top: 88px;
+  margin-left: 176px;
+  background: #244234;
+}
+
+.bloqueton {
+  width: 600px;
+  height: 600px;
+  background: #ffe171;
+}
